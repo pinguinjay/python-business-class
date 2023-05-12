@@ -11,10 +11,5 @@ payback4=payback3-10*pay10
 pay5= payback4//5
 payback5=payback4-5*pay5
 pay1= payback5//1
-print(pay500)
-print(pay100)
-print(pay50)
-print(pay10)
-print(pay5)
-print(pay1)
+
 print(pay500, pay100, pay50, pay10, pay1)
