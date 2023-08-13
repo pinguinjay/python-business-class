@@ -1,3 +1,14 @@
+"""
+#第一題
+import datetime as dt
+#把日期(date1)加上一段時間，找出date2的日期
+#date1 = "2010-03-02 12:15:00"
+#加上 time_add = 145天10小時又3分鐘
+date1 = "2010-03-02 12:15:00"
+time_add = dt.timedelta(days=145, hours=10, minutes=3)
+date2 = dt.datetime.strptime(date1, "%Y-%m-%d %H:%M:%S") + time_add
+print(date2)
+"""
 #輸入牆壁n面和m次油漆。以空格隔開
 n,m = map(int,input().split())
 #create n面牆，預設顏色為1的list
