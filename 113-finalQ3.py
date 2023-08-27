@@ -1,3 +1,7 @@
+"""
+上半部的程式碼在跑跑測試資料會有部分出問題
+"""
+
 import re
 letterA, letterB = input().split(" ")
 sentence_input = input()
@@ -26,3 +30,7 @@ def count_word_pairs_in_paragraph(word1, word2, paragraph):
 
 total_sentences, word_pair_count ,sentences= count_word_pairs_in_paragraph(letterA, letterB, sentence_input )
 print(str(total_sentences-1), str(word_pair_count))
+
+"""
+下半部是公布的正確解答程式碼
+"""
