@@ -34,6 +34,9 @@ print(str(total_sentences-1), str(word_pair_count))
 """
 下半部是公布的正確解答程式碼
 """
+"""
+請複製其中一段即可
+"""
 # 讀入英文單詞及英文段落
 word1, word2 = input().split()
 paragraph = input()
